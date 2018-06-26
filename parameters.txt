@@ -1,0 +1,27 @@
+####This file is used for test definition########
+####Notes that: The script recognize variable via the keyword "=" ##########
+
+######### Default timeout for waitXXX methods, seconds ##########
+####### XBO using 10sec for implicitwait due to slow network
+		VU can change it less than 3sec for running ############
+defaultTimeout = 60
+implicitWait = 10
+
+######### Set Capabilities ##########
+## chromedriverExecutable based on the project folder ###
+automationName = Appium
+deviceName = Galaxy Note5
+platformVersion = 6.0.1
+browserName = Chrome
+chromedriverExecutable = \ChromeDriver\2.38\chromedriver.exe
+
+######## MyVU Test URL ##########
+serverUrl = https://myvuapp.u.vu.local
+
+######## Login Account Setting ##########
+username = xboauto001@gmail.com
+pwd = Test 123
+sec_social_num = 1111
+
+######## The document name that to be viewed #########
+doc_name = automation_test.pdf
